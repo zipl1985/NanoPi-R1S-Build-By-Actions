@@ -8,16 +8,16 @@
 # Write by Jolly 2019/12/7
 # last update at 2019/12/19
 
-name: NanoPi-myR1s
+name: NanoPi-R1s H5 OpenWrt 19.07 Build
 
 on:
   push:
     branches: 
       - master
-  schedule:
-    - cron: 0 20 * * *
-  release:
-    types: [published]
+  # schedule:
+  #   - cron: 0 20 * * *
+  # release:
+  #   types: [published]
 
 jobs:
 
